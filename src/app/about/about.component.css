@@ -1,0 +1,25 @@
+
+.about{
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    padding: 60px;
+}
+.about .component{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about .component::before,.about .component::after{
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    width: 85px;
+    height: 4px;
+    background-color: white;
+}
+.about .component::before{
+    left: 52%;
+}
+.about .component::after{
+    right: 52%;
+}

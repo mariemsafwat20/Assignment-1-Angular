@@ -1,0 +1,33 @@
+
+.avatar{
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+}
+.avatar img{
+    width: 300px;
+    border-radius: 50%;
+}
+.avatar .framework{
+    position: relative;
+}
+.avatar .start{
+    margin-bottom: 10px;
+}
+.avatar .start::before,.avatar .start::after{
+    content: "";
+    position: absolute;
+    top: 60%;
+    width: 85px;
+    height: 4px;
+    background-color: white;
+}
+.avatar .start::before{
+    left: 52%;
+}
+.avatar .start::after{
+    right: 52%;
+}
+.avatar .category{
+    margin: 10px 0 0;
+}
